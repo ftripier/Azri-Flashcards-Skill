@@ -18,10 +18,10 @@ The installer prompts for the target agent and installation method. Add `--globa
 
 ### From GitHub
 
-Once this repository is pushed to GitHub, replace `OWNER/REPO` with its actual owner and repository name:
+Install directly from this GitHub repository:
 
 ```sh
-npx skills add OWNER/REPO --skill azri-flashcards
+npx skills add ftripier/Azri-Flashcards-Skill --skill azri-flashcards
 ```
 
 This repository keeps `SKILL.md` at the root, a layout supported by the CLI. Publishing the repository makes it installable; no npm package or build step is required.
